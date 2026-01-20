@@ -4,3 +4,4 @@ description: "Sample Docker Action"
 runs:
   using: "docker"
   image: "docker://ghcr.io/yagihash/docker-action-test:main"
+  entrypoint: "/action"
